@@ -1,0 +1,153 @@
+<!--MY First Boothstrap-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--First Part-->
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--1nd-->
+  <p>--------------------------------------------------------------</p>
+<div class="container">
+  <h1 style= "font-family:Cursive">My Wonderful Life</h1>
+  <p style= "font-family:Cursive">It's all about me.</p>
+  <p style= "font-family:Cursive">Story of my life.</p>
+  <!--2nd-->
+  <p>---------------------------------------------------------------</p>
+</div>
+	<div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">LIFE</div>
+    <div class="col-sm-8" style="background-color:lightpink;">LOVE</div>
+    <div class="col-sm-12" style="background-color:skyblue;">DREAMS</div>
+  </div>
+  <!--3rd-->
+ <p>---------------------------------------------------------------</p>
+ <div class="container">
+  <h1 style= "font-family:Cursive">h1 One, <mark>Make my dream come true</mark>..(36px)</h1>
+  <h2 style= "font-family:Cursive">h2 Two, Just wanna be <mark>with you</mark>..(30px)</h2>
+  <h3 style= "font-family:Cursive">h3 Three, Like A scene to see that your the <mark>only one for me</mark> and.. (24px)</h3>
+  <h4 style= "font-family:Cursive">h4 Four, <mark>Repeats</mark> just 1, 2, 3..(18px)</h4>
+  <h5 style= "font-family:Cursive">h5 Five, Thank you for the <mark>love</mark> in me..(14px)</h5>
+</div>
+<!--next-->
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h1 style= "font-family:Cursive">Abbreviations</h1>
+  <p style= "font-family:Cursive">The abbr element is used to mark up an abbreviation or acronym:</p>
+  <p style= "font-family:Cursive">The <abbr title="Lieutenant">LT</abbr> is a junior commissioned officer in many nations' armed forces, fire service or police.</p>
+</div>
+<!--next-->
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h1 style= "font-family:Cursive">Blockquotes</h1>
+  <p style= "font-family:Cursive">To show the quote on the right use the class .blockquote-reverse:</p>
+  <blockquote class="blockquote-reverse">
+    <p style= "font-family:Cursive">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer style= "font-family:Cursive">From WWF's website</footer>
+  </blockquote>
+</div>
+<!--next-->
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h1 style= "font-family:Cursive">Description Lists</h1>
+  <p style= "font-family:Cursive">The dl element indicates a description list:</p>
+  <dl>
+    <dt style= "font-family:Cursive">Coffee</dt>
+    <dd style= "font-family:Cursive">- black hot drink</dd>
+    <dt style= "font-family:Cursive">Milk</dt>
+    <dd style= "font-family:Cursive">- white cold drink</dd>
+  </dl>
+</div>
+<!--next-->
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h1 style= "font-family:Cursive">Code Snippets</h1>
+  <p style= "font-family:Cursive">Inline snippets of code should be embedded in the code element:</p>
+  <p style= "font-family:Cursive">The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+</div>
+<!--next-->
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h1 style= "font-family:Cursive">Keyboard Inputs</h1>
+  <p style= "font-family:Cursive">To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+  <p style= "font-family:Cursive">Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+</div>
+<p>---------------------------------------------------------------</p>
+<div class="container">
+<h1 style= "font-family:Cursive" >Multiple Code Lines</h1>
+<p style= "font-family:Cursive" >For multiple lines of code, use the pre element:</p>
+<pre style= "font-family:Cursive">
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.
+</pre>
+</div>
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h2 style= "font-family:Cursive">Contextual Colors</h2>
+  <p style= "font-family:Cursive">Use the contextual classes to provide "meaning through colors":</p>
+  <p class="text-muted">This text is muted.</p>
+  <p class="text-primary">This text is important.</p>
+  <p class="text-success">This text indicates success.</p>
+  <p class="text-info">This text represents some information.</p>
+  <p class="text-warning">This text represents a warning.</p>
+  <p class="text-danger">This text represents danger.</p>
+</div>
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h2  style= "font-family:Cursive" >Basic Table</h2>
+  <p style= "font-family:Cursive">The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th style= "font-family:Cursive">Firstname</th>
+        <th style= "font-family:Cursive">Lastname</th>
+        <th style= "font-family:Cursive">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style= "font-family:Cursive">John</td>
+        <td style= "font-family:Cursive">Doe</td>
+        <td style= "font-family:Cursive">john@example.com</td>
+      </tr>
+      <tr>
+        <td style= "font-family:Cursive">Mary</td>
+        <td style= "font-family:Cursive">Moe</td>
+        <td style= "font-family:Cursive">mary@example.com</td>
+      </tr>
+      <tr>
+        <td >July</td>
+        <td style= "font-family:Cursive">Dooley</td>
+        <td style= "font-family:Cursive">july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h2 style= "font-family:Cursive">Rounded Corners</h2>
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtdK1NpYUYtVguQk1Y2CmnK123mDEWt37BxZeohS1oTkc2QAnq" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+</div>
+<p>---------------------------------------------------------------</p>
+
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h2 style= "font-family:Cursive">Thumbnail</h2>
+  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWHVv5_DDBCo393L_Oja-0d9GnHliiGLoNZhPEdf0Mq7IyENWQ" class="img-rounded" alt="Cinque Terre" width="304" height="236" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+</div>
+<p>---------------------------------------------------------------</p>
+<div class="container">
+  <h2 style= "font-family:Cursive">Image</h2>
+  <p  style= "font-family:Cursive">The .img-responsive class makes the image scale nicely to the parent element (resize the browser window to see the effect):</p>
+  <img class="img-responsive" src="img_chania.jpg" alt="Chania" width="460" height="345">
+</div>
+<p>---------------------------------------------------------------</p>
